@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2018-11-05 AutoKereskedes.POCO", "2018-11-05 AutoKereskedes.POCO\2018-11-05 AutoKereskedes.POCO.csproj", "{27825481-09F6-4461-AAB0-A0E457203956}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2018-11-05 AutoKereskedes.TXT", "2018-11-05 AutoKereskedes.TXT\2018-11-05 AutoKereskedes.TXT.csproj", "{B2B91715-61AF-476B-9BAD-BAEE521A5CD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2018-11-05 AutoKereskedes.Tests", "2018-11-05 AutoKereskedes.Tests\2018-11-05 AutoKereskedes.Tests.csproj", "{2FD7DCC1-4B2E-47CC-B322-6BE1F181C618}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2018-11-05 AutoKereskedes.Console", "2018-11-05 AutoKereskedes.Console\2018-11-05 AutoKereskedes.Console.csproj", "{2EF4417C-497A-4D8A-87EC-CE7573977700}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2018-11-26 Autokereskedes.WPF", "2018-11-26 Autokereskedes.WPF\2018-11-26 Autokereskedes.WPF.csproj", "{553F45B2-D9A3-4CA9-BBDC-5F28FFF51CE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2018-12-03 Autokereskedes.DB", "2018-12-03 Autokereskedes.DB\2018-12-03 Autokereskedes.DB.csproj", "{6A7BFA53-C84A-48F0-827A-106E2FBFB405}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27825481-09F6-4461-AAB0-A0E457203956}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27825481-09F6-4461-AAB0-A0E457203956}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27825481-09F6-4461-AAB0-A0E457203956}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27825481-09F6-4461-AAB0-A0E457203956}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2B91715-61AF-476B-9BAD-BAEE521A5CD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2B91715-61AF-476B-9BAD-BAEE521A5CD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2B91715-61AF-476B-9BAD-BAEE521A5CD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2B91715-61AF-476B-9BAD-BAEE521A5CD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FD7DCC1-4B2E-47CC-B322-6BE1F181C618}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FD7DCC1-4B2E-47CC-B322-6BE1F181C618}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FD7DCC1-4B2E-47CC-B322-6BE1F181C618}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FD7DCC1-4B2E-47CC-B322-6BE1F181C618}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EF4417C-497A-4D8A-87EC-CE7573977700}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EF4417C-497A-4D8A-87EC-CE7573977700}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EF4417C-497A-4D8A-87EC-CE7573977700}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EF4417C-497A-4D8A-87EC-CE7573977700}.Release|Any CPU.Build.0 = Release|Any CPU
+		{553F45B2-D9A3-4CA9-BBDC-5F28FFF51CE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{553F45B2-D9A3-4CA9-BBDC-5F28FFF51CE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{553F45B2-D9A3-4CA9-BBDC-5F28FFF51CE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{553F45B2-D9A3-4CA9-BBDC-5F28FFF51CE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A7BFA53-C84A-48F0-827A-106E2FBFB405}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A7BFA53-C84A-48F0-827A-106E2FBFB405}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A7BFA53-C84A-48F0-827A-106E2FBFB405}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A7BFA53-C84A-48F0-827A-106E2FBFB405}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F919E0DB-2623-4BDD-A025-FF4343F91433}
+	EndGlobalSection
+EndGlobal

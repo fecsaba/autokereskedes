@@ -1,0 +1,48 @@
+﻿<Window x:Class="_2018_11_26_Autokereskedes.WPF.AutoReszletek"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_2018_11_26_Autokereskedes.WPF"
+        mc:Ignorable="d"
+        Title="AutoReszletek" Height="350" Width="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Label Content="Rendszám:" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Right"/>
+        <Label Content="Típus:" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Right"/>
+        <Label Content="Alvázszám:" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Right"/>
+        <Label Content="Motorszám:" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Right"/>
+        <Label Content="1. forg hely.:" Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Right"/>
+        <Label Content="Automata:" Grid.Row="5" VerticalAlignment="Center" HorizontalAlignment="Right"/>
+        <Label Content="Km óra állás:" Grid.Row="6" VerticalAlignment="Center" HorizontalAlignment="Right"/>
+        <Label Content="Üzemanyag:" Grid.Row="7" VerticalAlignment="Center" HorizontalAlignment="Right"/>
+
+        <TextBox x:Name="txtRendszam" Grid.Column="1" Grid.Row="0" VerticalAlignment="Center" Margin="5"/>
+        <ComboBox x:Name="cboTipus" Grid.Column="1" Grid.Row="1" VerticalAlignment="Center" Margin="5"/>
+        <TextBox x:Name="txtAlvazSzam" Grid.Column="1" Grid.Row="2" VerticalAlignment="Center" Margin="5"/>
+        <TextBox x:Name="txtMotorSzam" Grid.Column="1" Grid.Row="3" VerticalAlignment="Center" Margin="5"/>
+        <DatePicker x:Name="dpElsoForgHelyezes" Grid.Column="1" Grid.Row="4" VerticalAlignment="Center" Margin="5"/>
+        <CheckBox x:Name="chbAutomata" Grid.Column="1" Grid.Row="5" VerticalAlignment="Center" Margin="5"/>
+        <TextBox x:Name="txtKmOraAllas" Grid.Column="1" Grid.Row="6" VerticalAlignment="Center" Margin="5"/>
+        <ComboBox x:Name="cboUzemanyag" Grid.Column="1" Grid.Row="7" VerticalAlignment="Center" Margin="5"/>
+        <WrapPanel Grid.Row="8" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Button x:Name="btnMentes" Content="Mentés" Margin="5" Width="80" Click="btnMentes_Click"/>
+            <Button x:Name="btnMegsem" Content="Mégsem" Margin="5" Width="80" Click="btnMegsem_Click"/>
+        </WrapPanel>
+    </Grid>
+</Window>
