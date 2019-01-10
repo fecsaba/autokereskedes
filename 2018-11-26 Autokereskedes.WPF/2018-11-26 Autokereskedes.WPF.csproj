@@ -110,5 +110,8 @@
       <Name>2018-12-03 Autokereskedes.DB</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="autokereskedes.sql" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
